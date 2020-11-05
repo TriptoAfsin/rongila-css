@@ -331,8 +331,28 @@ button:hover{
     text-decoration: none;
 }
 
-.table{
-    
+table{
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid azure;
+    border-collapse: collapse;
+}
+table tr th{
+    padding:  0.5rem 0.5rem;;
+    border: 1px solid azure;
+}
+
+table tr td{
+    border: 1px solid azure;
+}
+
+
+.border-white{
+    border: 1px solid white !important;
+}
+
+.border-black{
+    border: 1px solid black !important;
 }
 
 img{
@@ -458,9 +478,34 @@ img{
     background-color: var(--darkBgColor) !important;
 }
 
+.darkBg table{
+    border: 1px solid white !important;
+}
+
+.darkBg table tr th{
+    border: 1px solid white !important;
+}
+
+.darkBg table tr td{
+    border: 1px solid white !important;
+}
+
+
 .lightBg{
     color: var(--black) !important;
     background-color:  var(--whiteBgColor) !important;
+}
+
+.lightBg table{
+    border: 1px solid black !important;
+}
+
+.lightBg table tr th{
+    border: 1px solid black !important;
+}
+
+.lightBg table tr td{
+    border: 1px solid black !important;
 }
 
 .red{
