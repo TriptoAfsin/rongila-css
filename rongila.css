@@ -343,6 +343,7 @@ table tr th{
 }
 
 table tr td{
+    padding: 0.5rem 0.5rem;
     border: 1px solid azure;
 }
 
@@ -384,8 +385,8 @@ img{
 }
 
 .card{
-    max-width: 480px !important;
-    min-width: 450px;
+    max-width: 550px !important;
+    min-width: 500px;
     border-radius: 7px;
     margin: 1rem 1rem;
     /*color: black;*/
@@ -483,10 +484,12 @@ img{
 }
 
 .darkBg table tr th{
+    padding: 0.5rem 0.5rem;
     border: 1px solid white !important;
 }
 
 .darkBg table tr td{
+    padding: 0.5rem 0.5rem;
     border: 1px solid white !important;
 }
 
@@ -501,10 +504,12 @@ img{
 }
 
 .lightBg table tr th{
+    padding: 0.5rem 0.5rem;
     border: 1px solid black !important;
 }
 
 .lightBg table tr td{
+    padding: 0.5rem 0.5rem;
     border: 1px solid black !important;
 }
 
