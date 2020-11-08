@@ -1437,6 +1437,19 @@ footer a:hover{
         min-width: 280px;
         width: 90% !important;
     }
+    
+    .row-center{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        justify-self: center;
+        text-align: center !important;
+    }
+
+    .row-center img{
+        width: 95% !important;
+        height: auto !important;
+    }
 
     .card-vertical{
         max-width: 330px !important;
