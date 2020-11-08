@@ -1,5 +1,6 @@
 <h1>Rongila.css</h1>
 <p>A class based css librarary built with animations and responsiveness in mind😍</p>
+<b>version: 0.2.0</b>
 
 <img src="https://i.imgur.com/xqoIGZd.png">
 
