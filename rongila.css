@@ -213,6 +213,8 @@
 
 
 
+
+
 /*GLobal CSS Stuffs*/
 body {
     margin: 0;
@@ -335,6 +337,48 @@ button:hover{
 	transform: skewX(8deg);
 }
 
+/*Hover Color Calsses*/
+.hover-green:hover{
+    transition: ease-in 0.2s;
+    border-radius: 2px;
+    background-color: var(--green) !important;
+    padding: 0.5rem 0.75rem;
+}
+
+.hover-blue:hover{
+    transition: ease-in 0.2s;
+    border-radius: 2px;
+    background-color: var(--blue) !important;
+    padding: 0.5rem 0.75rem;
+}
+
+.hover-purple:hover{
+    transition: ease-in 0.2s;
+    border-radius: 2px;
+    background-color: var(--purple) !important;
+    padding: 0.5rem 0.75rem;
+}
+
+.hover-orange:hover{
+    transition: ease-in 0.2s;
+    border-radius: 2px;
+    background-color: var(--orange) !important;
+    padding: 0.5rem 0.75rem;
+}
+
+.hover-yellow:hover{
+    transition: ease-in 0.2s;
+    border-radius: 2px;
+    background-color: var(--yellow) !important;
+    padding: 0.5rem 0.75rem;
+}
+
+.hover-grey:hover{
+    transition: ease-in 0.2s;
+    border-radius: 3px;
+    background-color: var(--darkBgColor) !important;
+    padding: 0.5rem 0.75rem;
+}
 
 
 
@@ -1163,17 +1207,17 @@ footer a:hover{
     }
     
     .img-med{
-        width: 450px !important;
+        width: 400px !important;
         height: auto !important;
     }
     
     .img-lg{
-        width: 600px !important;
+        width: 500px !important;
         height: auto !important;
     }
     
     .img-xl{
-        width: 750px !important;
+        width: 650px !important;
         height: auto !important;
     }
 
@@ -1447,8 +1491,28 @@ footer a:hover{
     }
 
     .row-center img{
-        width: 95% !important;
+        width: 90% !important;
         height: auto !important;
+    }
+
+    .img-sm{
+        width: 175px !important;
+        height: auto;
+    }
+
+    .img-med{
+        width: 225px !important;
+        height: auto;
+    }
+
+    .img-lg{
+        width: 275px !important;
+        height: auto;
+    }
+
+    .img-xl{
+        width: 350px !important;
+        height: auto;
     }
 
     .card-vertical{
