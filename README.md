@@ -6,7 +6,7 @@
 <h2>Features - </h2>
 <ol>
 <li> Written in vanilla css✔</li>
-<li> Simple class based usages😄</li>
+<li> Simple class based usage😄</li>
 <li> lightweight(<30KB)🐱‍🏍</li>
 <li> Easy to use animations & hover effects🤯</li>
 </ol>

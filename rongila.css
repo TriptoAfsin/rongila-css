@@ -178,27 +178,27 @@
 }
 
 .floatIn{
-    animation: floatIn 0.4s !important;
+    animation: floatIn 0.8s !important;
 }
 
 .float-right{
-    animation: float-right 0.4s !important;
+    animation: float-right 0.8s !important;
 }
 
 .float-left{
-    animation: float-left 0.4s !important;
+    animation: float-left 0.8s !important;
 }
 
 .floatUp{
-    animation: floatUp 0.4s !important;
+    animation: floatUp 0.8s !important;
 }
 
 .shake {
-    animation: shake 0.4s !important;
+    animation: shake 0.8s !important;
 }
 
 .wobble {
-    animation: wobble 0.4s !important;
+    animation: wobble 0.8s !important;
 }
 
 /*Glow classes*/
@@ -396,6 +396,28 @@ img{
     height: 200px !important;
 }
 
+.img-sm{
+    width: 500px !important;
+    height: auto !important;
+}
+
+.img-med{
+    width: 750px !important;
+    height: auto !important;
+}
+
+.img-lg{
+    width: 1000px !important;
+    height: auto !important;
+}
+
+.img-xl{
+    width: 1250px !important;
+    height: auto !important;
+}
+
+
+
 .rounded{
     border: none;
     border-radius: 4px !important;
@@ -448,6 +470,27 @@ img{
     margin-bottom: 0.5rem;
     color: var(--white);
     background-color: var(--blue);
+    box-shadow: var(--shadow);
+}
+
+.card-vertical{
+    max-width: 380px !important;
+    min-width: 320px;
+    min-height: 450px;
+    flex-direction: column;
+    border-radius: 7px;
+    margin: 1rem 1rem;
+    /*color: black;*/
+    margin-bottom: 0.5rem;
+    color: var(--white);
+    background-color: var(--blue);
+    box-shadow: var(--shadow);
+}
+
+.card-vertical:hover{
+    cursor: pointer;
+    transition: ease-out 0.2s;
+    transform: scale(1.01);
     box-shadow: var(--shadow);
 }
 
@@ -562,6 +605,10 @@ img{
     border: 1px solid white !important;
 }
 
+.darkBg input{
+    border: none !important;
+}
+
 
 .lightBg{
     color: var(--black) !important;
@@ -604,6 +651,18 @@ img{
     color: var(--green) !important;
 }
 
+.purple-txt{
+    color: var(--purple) !important;
+}
+
+.orange-txt{
+    color: var(--orange) !important;
+}
+
+.black-txt{
+    color: black !important;
+}
+
 .blue{
     color: white !important;
     background-color: var(--blue)!important;
@@ -643,6 +702,22 @@ img{
 
 .txt-xl{
     font-size: 1.5rem !important;
+}
+
+.txt-xxl{
+    font-size: 2rem !important;
+}
+
+.txt-xxxl{
+    font-size: 2.5rem !important;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
 }
 
 
@@ -691,6 +766,9 @@ img{
 
 
 /*margin classes*/
+.mt0{
+    margin-top: 0rem !important;
+}
 .mt1{
     margin-top: 0.75rem !important;
 }
@@ -714,6 +792,11 @@ img{
 .mt6{
     margin-top: 2rem !important;
 }
+
+.mb0{
+    margin-bottom: 0rem !important;
+}
+
 
 .mb1{
     margin-bottom: 0.75rem !important;
@@ -739,7 +822,57 @@ img{
     margin-bottom: 2rem !important;
 }
 
+.mr0{
+    margin-right: 0 !important;
+}
+.mr1{
+    margin-right: 0.75rem !important;
+}
+.mr2{
+    margin-right: 1rem !important;
+}
+.mr3{
+    margin-right: 1.25rem !important;
+}
+.mr4{
+    margin-right: 1.5rem !important;
+}
+
+.ml0{
+    margin-left: 0rem !important;
+}
+.ml1{
+    margin-left: 0.75rem !important;
+}
+.ml2{
+    margin-left: 1rem !important;
+}
+.ml3{
+    margin-left: 1.25rem !important;
+}
+.ml4{
+    margin-left: 1.5rem !important;
+}
+
+
 /*Spacing and paddings*/
+
+.spacer1{
+    margin: 1rem 1rem !important;
+}
+
+.spacer2{
+    margin: 2rem 2rem !important;
+}
+
+.spacer3{
+    margin: 3rem 3rem !important;
+}
+
+.spacer4{
+    margin: 4rem 4rem !important;
+}
+
 .pad1{
     padding: 0.25rem 0.3rem !important;
 }
@@ -817,7 +950,7 @@ input{
     font-size: 1rem;
     padding: 0.5rem 3rem;
     margin: 0.5rem 0.5rem;
-    border: none;
+    border: 1px solid black;
 }
 
 input:hover{
@@ -944,16 +1077,34 @@ nav img{
 }
 
 
+/*Background imgs*/
+.background-img{
+    margin: 0 0 !important;
+    z-index: -5 !important;
+    position: absolute;
+}
+
+
+/*z-index*/
+.bring-to-front{
+    z-index: 5;
+}
+
+.push-to-back{
+    z-index: -5;
+}
 
 
 /*Footer classes*/
 footer{
     bottom: 0;
+    position: relative;
     padding: 2rem 1rem;
     background: var(--primaryColor);
-    margin-top: 2rem;
+    margin-top: 5rem;
     display: flex;
     flex-direction: row;
+    height: 100%;
     justify-content: space-around;
 }
 
@@ -975,6 +1126,22 @@ footer a:hover{
 }
 
 
+/*width classes*/
+.full-width{
+    width: 95%;
+}
+
+.block{
+    display: block !important;
+}
+
+.inline-block{
+    display: inline-block !important;
+}
+
+.inline{
+    display: inline !important;
+}
 
 
 
@@ -984,6 +1151,49 @@ footer a:hover{
 /*Media Queries 800px*/
 
 @media(max-width: 800px){
+
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-sm{
+        width: 250px !important;
+        height: auto !important;
+    }
+    
+    .img-med{
+        width: 450px !important;
+        height: auto !important;
+    }
+    
+    .img-lg{
+        width: 600px !important;
+        height: auto !important;
+    }
+    
+    .img-xl{
+        width: 750px !important;
+        height: auto !important;
+    }
+
+    .spacer1{
+        margin: 0.5rem 0.5rem !important;
+    }
+    
+    .spacer2{
+        margin: 0.75rem 0.75rem !important;
+    }
+    
+    .spacer3{
+        margin: 1rem 1rem !important;
+    }
+    
+    .spacer4{
+        margin: 1.5rem 1.5rem !important;
+    }
+
+
     nav{
         width: 100%;
         background: var(--blue);
@@ -1212,9 +1422,36 @@ footer a:hover{
         text-align: center !important;
 
     }
+
+    body img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .background-img{
+        display: none;
+    }
+
     .card{
         max-width: 330px !important;
         min-width: 280px;
         width: 90% !important;
+    }
+
+    .card-vertical{
+        max-width: 330px !important;
+        min-width: 300px;
+        min-height: 400px;
+        flex-direction: column !important;
+        justify-content: center !important;
+        justify-self: center;
+        text-align: center !important;
+        border-radius: 7px;
+        margin: 1rem 1rem;
+        /*color: black;*/
+        margin-bottom: 0.5rem;
+        color: var(--white);
+        background-color: var(--blue);
+        box-shadow: var(--shadow);
     }
 }
