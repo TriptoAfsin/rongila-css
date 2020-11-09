@@ -11,23 +11,32 @@
     --darkBgColor: #282c34;
     --whiteBgColor: rgb(253, 253, 253);
     --darkCard: #282c34b6;
+    --grey: rgb(30, 30, 30);
+    --lightGrey: rgb(45, 45, 45);
     --lightCard: #ffffff;
 
     --red: rgb(204, 31, 31);
+    --darkRed: rgb(124, 23, 23);
+    --lightRed: rgb(248, 72, 72);
     --green: rgb(43, 202, 78);
+    --darkGreen: rgb(28, 114, 47);
+    --lightGreen: rgb(61, 235, 98);
     --blue: rgb(35, 89, 240);
+    --lightBlue:  rgb(76, 123, 250);
+    --darkBlue: rgb(35, 62, 136);
     --yellow: rgb(245, 213, 30);
     --orange: orange;
     --purple: rgb(141, 34, 141);
+    --lightPurple:rgb(88, 63, 201);
     --black: black;
     --white: #ffff;
 
-    --blueGradient: ;
-    --greenGradient: ;
-    --redGradient: ;
-    --purpleGradient: ;
-    --orangeGradient: ;
-    --greyGradient: ;
+    --blueGradient: linear-gradient(45deg, var(--lightBlue), var(--blue));
+    --greenGradient: linear-gradient(45deg,  var(--lightGreen),var(--green));
+    --redGradient: linear-gradient(45deg,  var(--lightRed),var(--red));
+    --purpleGradient: linear-gradient(45deg,  var(--lightPurple),var(--purple));
+    --yellowGradient: linear-gradient(45deg,  var(--yellow),var(--orange));
+    --greyGradient: linear-gradient(45deg,  var(--lightGrey),var(--grey));
 
     /*Font Size*/
 
@@ -454,6 +463,11 @@ img{
     margin: 0.5rem 0.5rem !important;
 }
 
+.img-icon{
+    width: 48px;
+    height: 48px;
+}
+
 .img-thumbnail{
     width: 200px !important;
     height: 200px !important;
@@ -511,6 +525,87 @@ img{
     border: none !important;
 }
 
+.no-background{
+    background: none !important;
+}
+
+/*Custom Width*/
+.width10{
+    width: 10%;
+    height: auto;
+}
+
+.width20{
+    width: 20%;
+    height: auto;
+}
+
+.width25{
+    width: 25%;
+    height: auto;
+}
+
+.width30{
+    width: 30%;
+    height: auto;
+}
+
+.width33{
+    width: 33.33%;
+    height: auto;
+}
+
+.width40{
+    width: 40%;
+    height: auto;
+}
+
+.width45{
+    width: 45%;
+    height: auto;
+}
+
+.width50{
+    width: 50%;
+    height: auto;
+}
+
+.width60{
+    width: 60%;
+    height: auto;
+}
+
+.width70{
+    width: 70%;
+    height: auto;
+}
+
+.width75{
+    width: 75%;
+    height: auto;
+}
+
+.width80{
+    width: 80%;
+    height: auto;
+}
+
+.width90{
+    width: 10%;
+    height: auto;
+}
+
+/*Custom ratio classes*/
+.grid11:nth-child(1){
+    width: 50%;
+    height: auto;
+}
+
+.grid11:nth-child(2){
+    width: 50%;
+    height: auto;
+}
+
 
 
 
@@ -527,6 +622,7 @@ img{
 .card{
     max-width: 550px !important;
     min-width: 500px;
+    max-height: 300px;
     border-radius: 7px;
     margin: 1rem 1rem;
     /*color: black;*/
@@ -553,7 +649,7 @@ img{
 .card-vertical:hover{
     cursor: pointer;
     transition: ease-out 0.2s;
-    transform: scale(1.01);
+    transform: scale(1.02);
     box-shadow: var(--shadow);
 }
 
@@ -570,7 +666,7 @@ img{
 .card:hover {
     cursor: pointer;
     transition: ease-out 0.2s;
-    transform: scale(1.01);
+    transform: scale(1.02);
     box-shadow: var(--shadow);
 }
 
@@ -637,15 +733,20 @@ img{
 
 .grey{
     color: white !important;
-    background-color: rgb(30, 30, 30) !important;
+    background-color: var(--grey) !important;
 }
 
 .greyBg{
     color: white !important;
-    background-color: rgb(30, 30, 30) !important;
+    background-color: var(--grey) !important;
 }
 .greyBg table{
     border: 1px solid white !important;
+}
+
+.greyGradient{
+    color: white !important;
+    background: var(--greyGradient) !important;
 }
 
 
@@ -701,6 +802,21 @@ img{
     background-color: var(--red) !important;
 }
 
+.redGradient{
+    color: white !important;
+    background: var(--redGradient) !important;
+}
+
+.darkRed{
+    color: white !important;
+    background-color: var(--darkRed) !important;
+}
+
+.lightRed{
+    color: white !important;
+    background-color: var(--lightRed) !important;
+}
+
 .red-txt{
     color: var(--red) !important;
 }
@@ -708,6 +824,21 @@ img{
 .green{
     color: white !important;
     background-color:   var(--green) !important;
+}
+
+.darkGreen{
+    color: white !important;
+    background-color: var(--darkGreen) !important;
+}
+
+.lightGreen{
+    color: white !important;
+    background-color: var(--lightGreen) !important;
+}
+
+.greenGradient{
+    color: white !important;
+    background: var(--greenGradient) !important;
 }
 
 .green-txt{
@@ -730,6 +861,19 @@ img{
     color: white !important;
     background-color: var(--blue)!important;
 }
+.lightBlue{
+    color: white !important;
+    background-color: var(--lightBlue) !important;
+}
+.darkBlue{
+    color: white !important;
+    background-color: var(--darkBlue) !important;
+}
+
+.blueGradient{
+    color: white !important;
+    background: var(--blueGradient) !important;
+}
 
 .blue-txt{
     color: var(--blue) !important;
@@ -740,10 +884,23 @@ img{
     background-color:   var(--yellow) !important;
 }
 
+.yellowGradient{
+    color: white !important;
+    background: var(--yellowGradient) !important;
+}
+
+
 .purple{
     color: white !important;
     background-color:   var(--purple) !important;
 }
+
+.purpleGradient{
+    color: white !important;
+    background:   var(--purpleGradient) !important;
+}
+
+
 
 .orange{
     color: white !important;
@@ -1011,6 +1168,25 @@ ol li{
     margin: 0.5rem 0rem;
 }
 
+/*Form Classes*/
+.form-container{
+    padding: 2rem 2rem;
+    border: 1px solid var(--lightBlue);
+    border-radius: 4px;
+}
+
+.form-container label{
+    font-size: 1.25rem;
+}
+
+.form-container input{
+    border-radius: 5px;
+}
+
+.form-container input:hover{
+    border: 3px solid var(--lightBlue);
+}
+
 
 
 /*Input classes*/
@@ -1021,28 +1197,23 @@ input{
     border: 1px solid black;
 }
 
+input:active{
+    border: 4px solid var(--lightBlue);
+}
 input:hover{
     transform: scale(1.01);
     transition: ease-in 0.1s;
     box-shadow: var(--shadow);
+    border: 2px solid var(--lightBlue);
 }
-
-
-
-
 
 
 /*Dropdown classes*/
 select{
     margin: 0.5rem 0.5rem;
     padding: 0.5rem 2rem;
-}
-
-option{
 
 }
-
-
 
 /*Navbar classes*/
 nav{
@@ -1220,10 +1391,85 @@ footer a:hover{
 
 @media(max-width: 800px){
 
+    .form-container{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 1rem;
+        border: 1px solid var(--lightBlue);
+        border-radius: 5px;
+    }
+
+    .width10{
+        width: 100%;
+        height: auto;
+    }
+    
+    .width20{
+        width: 100%;
+        height: auto;
+    }
+    
+    .width25{
+        width: 100%;
+        height: auto;
+    }
+    
+    .width30{
+        width: 100%;
+        height: auto;
+    }
+    
+    .width33{
+        width: 100%;
+        height: auto;
+    }
+    
+    .width40{
+        width: 100%;
+        height: auto;
+    }
+    
+    .width45{
+        width: 100%;
+        height: auto;
+    }
+    
+    .width50{
+        width: 100%;
+        height: auto;
+    }
+    
+    .width60{
+        width: 100%;
+        height: auto;
+    }
+    
+    .width70{
+        width: 100%;
+        height: auto;
+    }
+    
+    .width75{
+        width: 100%;
+        height: auto;
+    }
+    
+    .width80{
+        width: 100%;
+        height: auto;
+    }
+    
+    .width90{
+        width: 100%;
+        height: auto;
+    }
+
     .row{
         display: flex;
         flex-direction: column;
     }
+
+    
 
     .img-sm{
         width: 250px !important;
@@ -1503,6 +1749,7 @@ footer a:hover{
     .card{
         max-width: 330px !important;
         min-width: 280px;
+        max-height: 300px;
         width: 90% !important;
     }
     

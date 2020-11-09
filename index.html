@@ -6,9 +6,9 @@
     <title>Rongila CSS</title>
     <link rel="stylesheet" href="./rongila.css">
 </head>
-<body class="darkBg">
+<body class="greyGradient">
 
-    <nav class="blue shadow">
+    <nav class="blueGradient shadow">
         <label class="navbar-logo txt-xl"><a href="./index.html">Rongila CSS</a></label>
         <ul>
             <li><a href="./index.html" class="nav-btn hover-grey">Home</a></li>
@@ -46,7 +46,7 @@
         <div class="spacer4"></div>
     <div class="row auto-spacing">
         <div class="column">
-            <div class="darkBg pad6 row">
+            <div class="pad6 row">
                 <p class="txt-left txt-lg mr4"> Colors - </p>
                 <button class="red float-left pad4 shadow">Red</button>
                 <button class="blue float-left pad4 shadow">Blue</button>
@@ -74,7 +74,7 @@
                 <p class="right-txt fade">Right Text Align</p><br></br>
             </div>
         </div>  
-        <div class="column darkBg pad6">
+        <div class="column pad6">
             <h1 class="float-right">Heading 1</h1>
             <h2 class="float-right">Heading 2</h2>
             <h3 class="float-right">Heading 3</h3>
@@ -198,7 +198,7 @@
 
     <h2>Cards</h2>
     <div class="card-container">
-        <div class="card green">
+        <div class="card greenGradient">
             <p class="card-title">Card Title</p>
             <p class="card-subtitle">Card Subtitle</p>
             <p class="card-txt">Card txt, 12,3,45,64564dfsfdfge</p>
@@ -210,7 +210,7 @@
             <p class="card-txt">Card txt, 12,3,45,64564dfsfdfge</p>
             <button class="card-btn pad2 right">CLick Me</button>
         </div>
-        <div class="card">
+        <div class="card redGradient">
             <p class="card-title">Card Title</p>
             <p class="card-subtitle">Card Subtitle😎</p>
             <p class="card-txt">Card txt, 12,3,45, Dhaka Bangladesh</p>
@@ -234,8 +234,61 @@
             <p class="card-txt">Card txt, 12,3,45, Dhaka Bangladesh</p>
             <button class="card-btn pad2 full-width">CLick Me</button>
         </div>
+        <div class="card-vertical yellowGradient">
+            <p class="card-title">Card Title</p>
+            <p class="card-subtitle">Card Subtitle😎</p>
+            <p class="card-txt">Card txt, 12,3,45, Dhaka Bangladesh</p>
+            <button class="card-btn pad2 full-width">CLick Me</button>
+        </div>
     </div>
-    <footer class="shadow blue">
+
+    <h2>1:1 Grid</h2>
+    <div class="row mt6">
+            <div style="background-color:coral;height: 200px;" class="center-txt txt-xl bold width50">Red DIV</div>
+            <div style="background-color:rgb(68, 194, 236);height: 200px;" class="center-txt txt-xl bold width50">Blue DIV</div> 
+    </div>
+
+    <h2>2:1 Grid</h2>
+    <div class="row mt6">
+            <div style="background-color:coral;height: 200px;" class="center-txt txt-xl bold width75">Red DIV</div>
+            <div style="background-color:rgb(68, 194, 236);height: 200px;" class="center-txt txt-xl bold width25">Blue DIV</div> 
+    </div>
+
+    <h2>1:2 Grid</h2>
+    <div class="row mt6">
+            <div style="background-color:coral;height: 200px;" class="center-txt txt-xl bold width25">Red DIV</div>
+            <div style="background-color:rgb(68, 194, 236);height: 200px;" class="center-txt txt-xl bold width75">Blue DIV</div> 
+    </div>
+
+    <h2>1:1:1 Grid</h2>
+    <div class="row mt6">
+        <div style="background-color:coral;height: 200px;" class="center-txt txt-xl bold width33">Red DIV</div>
+        <div style="background-color:rgb(68, 194, 236);  height: 200px;" class="center-txt txt-xl bold width33">Blue DIV</div>
+        <div style="background-color:rgb(127, 68, 236);  height: 200px;" class="center-txt txt-xl bold width33">Blue DIV</div>
+    </div>
+
+    <h2>1:2:1 Grid</h2>
+    <div class="row mt6">
+        <div style="background-color:coral;  height: 200px;" class="center-txt txt-xl bold width25">Red DIV</div>
+        <div style="background-color:rgb(68, 194, 236);  height: 200px;" class="center-txt txt-xl bold width50">Blue DIV</div>
+        <div style="background-color:rgb(127, 68, 236); height: 200px;" class="center-txt txt-xl bold width25">Blue DIV</div>
+    </div>
+
+    <div class="mt6 center-self pad4 column">
+        <h2>Forms</h2>
+        <form class="form-container">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" class="no-animation"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="submit" value="Submit">
+          </form> 
+    </div>
+    
+
+
+
+    <footer class="shadow purpleGradient">
         <div class="column">
             <p class="txt-xl">Rongilla CSS</p>
             <p class="txt-med">Yet another class based css library</p>
@@ -249,7 +302,7 @@
         </div>
         <div class="column">
             <p class="txt-lg">Sign up for newsletter</p>
-           <input type="email" placeholder="Email" class="no-animation">
+           <input type="email" placeholder="Email" class="no-animation rounded">
         </div>
         <div class="column">
             <p class="txt-lg">Address</p>
@@ -258,7 +311,7 @@
         <div>
             <p class="txt-lg">Follow us</p>
             <a href="https://www.facebook.com/"><img  class="footer-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png"></img></a>
-            <a href="https://twitter.com/?lang=en"><img class="footer-icon" src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c53e.png"></img></a>
+            <a href="https://twitter.com/?lang=en"><img class="footer-icon" src="https://3.bp.blogspot.com/-NxouMmz2bOY/T8_ac97cesI/AAAAAAAAGg0/e3vY1_bdnbE/s1600/Twitter+logo+2012.png"></img></a>
             <a href="https://www.instagram.com/"><img  class="footer-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png"></img></a>
         </div>
     </footer>
