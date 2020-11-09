@@ -503,6 +503,10 @@ img{
     border-radius: 4px !important;
 }
 
+.not-rounded{
+    border-radius: 0px !important;
+}
+
 .shadow{
     box-shadow: var(--shadow) !important;
 }
@@ -1173,7 +1177,6 @@ ol li{
 
 /*Form Classes*/
 .form-container{
-    box-sizing: border-box;
     padding: 2rem 2rem;
     border: 1px solid var(--lightBlue);
     border-radius: 4px;
@@ -1184,8 +1187,6 @@ ol li{
 }
 
 .form-container input{
-    max-width: 95%;
-    min-width: 90%;
     box-sizing: border-box;
     border-radius: 5px;
 }
@@ -1194,8 +1195,6 @@ ol li{
     color: var(--white);
     background: var(--green);
     border: none;
-    max-width: 95%;
-    min-width: 90%;
     box-sizing: border-box;
     border-radius: 5px;
     cursor: pointer;
@@ -1295,9 +1294,7 @@ nav ul li:hover{
     background-color: var(--grey);
 }
 
-
-
-nav img{
+.nav-img{
 
 }
 
@@ -1413,6 +1410,17 @@ footer a:hover{
 
 
 
+/*Media Queries 1300px*/
+@media(max-width: 1300px){
+    .form-container{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 1rem;
+        border: 1px solid var(--lightBlue);
+        border-radius: 5px;
+    }
+}
+
 
 
 /*Media Queries 800px*/
@@ -1424,6 +1432,17 @@ footer a:hover{
         flex-direction: column;
         padding: 1rem 1rem;
         border: 1px solid var(--lightBlue);
+        border-radius: 5px;
+    }
+
+    .form-container label{
+        font-size: 0.75rem;
+        padding: 0.25rem 0.75rem;
+    }
+
+    .form-container input{
+        box-sizing: border-box;
+        padding: 0.25rem 0.75rem;
         border-radius: 5px;
     }
 
