@@ -240,7 +240,9 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     box-sizing: border-box;
-  }
+}
+
+
   
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -460,6 +462,7 @@ table tr td{
 }
 
 img{
+    width: auto;
     margin: 0.5rem 0.5rem !important;
 }
 
@@ -1170,6 +1173,7 @@ ol li{
 
 /*Form Classes*/
 .form-container{
+    box-sizing: border-box;
     padding: 2rem 2rem;
     border: 1px solid var(--lightBlue);
     border-radius: 4px;
@@ -1180,8 +1184,32 @@ ol li{
 }
 
 .form-container input{
+    max-width: 95%;
+    min-width: 90%;
+    box-sizing: border-box;
     border-radius: 5px;
 }
+
+.form-container input[type=submit]{
+    color: var(--white);
+    background: var(--green);
+    border: none;
+    max-width: 95%;
+    min-width: 90%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.form-container input[type=submit]:hover{
+    border: none;
+    transition: ease-in 0.3s;
+    background: var(--lightGreen);
+    transform: none;
+}
+
+
 
 .form-container input:hover{
     border: 3px solid var(--lightBlue);
@@ -1263,8 +1291,8 @@ nav ul li{
 
 nav ul li:hover{
     transition: ease-in 0.2s;
-    border-radius: 2px;
-    background-color: var(--blue);
+    border-radius: 3px;
+    background-color: var(--grey);
 }
 
 
@@ -1301,8 +1329,8 @@ nav img{
 
 .nav-list-item:hover{
     transition: ease-in 0.2s;
-    border-radius: 2px;
-    background-color: var(--blue);
+    border-radius: 3px;
+    background-color: var(--grey);
 }
 
 .navbar-logo{
