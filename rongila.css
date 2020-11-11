@@ -45,10 +45,8 @@
     --shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.527);
     --blueShadow: 0 5px 15px 0px rgba(69, 113, 235, 0.527);
     --greenShadow: 0 5px 15px 0px rgba(110, 252, 181, 0.527);
-    --redShadow: 0 5px 15px 0px rgba(253, 110, 122, 0.527);
-    
+    --redShadow: 0 5px 15px 0px rgba(253, 110, 122, 0.527); 
 }
-
 .active{
     color: black !important;
     background-color:#f0f7fa !important;
@@ -240,9 +238,8 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     box-sizing: border-box;
+    overflow-x: auto !important;
 }
-
-
   
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -290,6 +287,11 @@ button{
     border: none;
     display: inline-block;
     cursor: pointer;
+}
+
+.container{
+    padding: 0.5rem 0.5rem;
+    overflow-x: auto !important;
 }
 
 button:hover{
@@ -441,7 +443,6 @@ table{
     padding: 0.5rem 0.5rem;
     border: 1px solid azure;
     border-collapse: collapse;
-    overflow: scroll;
 }
 table tr th{
     padding:  0.5rem 0.5rem;;
@@ -1181,6 +1182,7 @@ ol li{
     padding: 2rem 2rem;
     border: 1px solid var(--lightBlue);
     border-radius: 4px;
+    overflow-x: auto !important;
 }
 
 .form-container label{
@@ -1281,7 +1283,7 @@ nav ul{
 }
 
 .nav-toggle-btn{
-   display: none;
+    display: none;
 }
 
 nav ul li{
@@ -1341,6 +1343,9 @@ nav ul li:hover{
 
 }
 
+.overflow-scroll{
+    overflow-x: auto !important;
+}
 
 /*Background imgs*/
 .background-img{
@@ -1428,7 +1433,6 @@ footer a:hover{
 /*Media Queries 800px*/
 
 @media(max-width: 800px){
-
     .form-container{
         display: flex;
         margin: 1rem 0.5rem;
@@ -1648,23 +1652,18 @@ footer a:hover{
     }
     */
 
+    
     /*
     .nav-toggle-btn{
         display: inline-block;
         margin-left: auto;
         cursor: pointer;
+        width: 40px !important;
+        height: auto !important;
+        padding: 0.5rem;
     }
     */
-
-    .nav-toggle-btn:hover ~ nav ul{
-    }
-
     
-    
-        
-    
-
-
     .center-self{
         display: flex !important;
         flex-direction: column;
@@ -1796,7 +1795,7 @@ footer a:hover{
         justify-content: center !important;
         justify-self: center !important;
         text-align: center !important;
-
+        overflow-x: scroll !important;
     }
 
     body img{
@@ -1858,7 +1857,6 @@ footer a:hover{
         text-align: center !important;
         border-radius: 7px;
         margin: 1rem 1rem;
-        /*color: black;*/
         margin-bottom: 0.5rem;
         color: var(--white);
         background-color: var(--blue);
