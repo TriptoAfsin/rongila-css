@@ -1125,6 +1125,68 @@ img{
     padding: 1.5rem 1.55rem !important;
 }
 
+.pad-x1{
+    padding-left: 0.3rem !important;
+    padding-right: 0.3rem !important;
+}
+
+.pad-x2{
+    padding-left: 0.55rem !important;
+    padding-right: 0.55rem !important;
+}
+
+.pad-x3{
+    padding-left: 0.8rem !important;
+    padding-right: 0.8rem !important;
+}
+
+.pad-x4{
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.pad-x5{
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+
+.pad-x6{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+.pad-y1{
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+}
+
+.pad-y2{
+    padding-top: 0.55rem !important;
+    padding-bottom: 0.55rem !important;
+}
+
+.pad-y3{
+    padding-top: 0.8rem !important;
+    padding-bottom: 0.8rem !important;
+}
+
+.pad-y4{
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.pad-y5{
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.pad-y6{
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
+
+
 
 
 /*rows & colums*/
@@ -1244,7 +1306,6 @@ select{
     padding: 0.5rem 2rem;
 
 }
-
 /*Navbar classes*/
 .nav-container {
     display: inline-block;
@@ -1283,7 +1344,7 @@ select{
     display: block;
     float: left;
     font-size: 2rem;
-    padding: 0.5rem 0.75rem;
+    padding: 0.5rem 1rem;
     text-decoration: none;
   }
   
@@ -1408,15 +1469,6 @@ nav{
     z-index: 999;
 }
 
-
-
-.nav-toggle-btn{
-    display: none;
-}
-
-.nav-toggle{
-    display: none;
-}
 .overflow-scroll{
     overflow-x: auto !important;
 }
@@ -1427,7 +1479,6 @@ nav{
     z-index: -5 !important;
     position: absolute;
 }
-
 
 /*z-index*/
 .bring-to-front{
@@ -1633,18 +1684,6 @@ footer a:hover{
     
     .spacer4{
         margin: 1.5rem 1.5rem !important;
-    }
-
-    .nav-list{
-        margin-left: 0;
-        display: flex;
-        float: left;
-        align-items: left;
-        text-align: left;
-        justify-content: space-evenly;
-        text-decoration: none;
-        list-style: none;
-        flex-direction: column;
     }
     .center-self{
         display: flex !important;
