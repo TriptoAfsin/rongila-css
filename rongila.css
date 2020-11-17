@@ -1110,79 +1110,119 @@ img{
 }
 
 .pad3{
-    padding: 0.75rem 0.8rem !important;
+    padding: 0.75rem 1rem !important;
 }
 
 .pad4{
-    padding: 1rem 1.05rem !important;
+    padding: 1rem 1.25rem !important;
 }
 
 .pad5{
-    padding: 1.25rem 1.3rem !important;
+    padding: 1.25rem 1.5rem !important;
 }
 
 .pad6{
-    padding: 1.5rem 1.55rem !important;
+    padding: 1.35rem 2rem !important;
+}
+
+.pad7{
+    padding: 1.35rem 3.5rem !important;
+}
+
+.pad8{
+    padding: 1.35rem 4.5rem !important;
+}
+
+.pad9{
+    padding: 1.35rem 5.5rem !important;
+}
+
+.pad10{
+    padding: 1.35rem 7.0rem !important;
 }
 
 .pad-x1{
     padding-left: 0.3rem !important;
     padding-right: 0.3rem !important;
+    padding-top: auto;
+    padding-bottom: auto;
 }
 
 .pad-x2{
     padding-left: 0.55rem !important;
     padding-right: 0.55rem !important;
+    padding-top: auto;
+    padding-bottom: auto;
 }
 
 .pad-x3{
     padding-left: 0.8rem !important;
     padding-right: 0.8rem !important;
+    padding-top: auto;
+    padding-bottom: auto;
 }
 
 .pad-x4{
     padding-left: 1rem !important;
     padding-right: 1rem !important;
+    padding-top: auto;
+    padding-bottom: auto;
 }
 
 .pad-x5{
     padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
+    padding-top: auto;
+    padding-bottom: auto;
 }
 
 .pad-x6{
     padding-left: 2rem !important;
     padding-right: 2rem !important;
+    padding-top: auto;
+    padding-bottom: auto;
 }
 
 .pad-y1{
     padding-top: 0.3rem !important;
     padding-bottom: 0.3rem !important;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .pad-y2{
     padding-top: 0.55rem !important;
     padding-bottom: 0.55rem !important;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .pad-y3{
     padding-top: 0.8rem !important;
     padding-bottom: 0.8rem !important;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .pad-y4{
     padding-top: 1rem !important;
     padding-bottom: 1rem !important;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .pad-y5{
     padding-top: 1.5rem !important;
     padding-bottom: 1.5rem !important;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .pad-y6{
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 
@@ -1421,6 +1461,34 @@ select{
   
 
 @media(max-width: 800px){
+
+    .pad4{
+        padding: 1rem auto !important;
+    }
+    
+    .pad5{
+        padding: 1.25rem auto !important;
+    }
+    
+    .pad6{
+        padding: 1.35rem auto !important;
+    }
+    .pad7{
+        padding: 1.35rem auto !important;
+    }
+    
+    .pad8{
+        padding: 1.35rem auto !important;
+    }
+    
+    .pad9{
+        padding: 1.35rem auto !important;
+    }
+    
+    .pad10{
+        padding: 1.35rem auto !important;
+    }
+
     .nav-container .menu {
         width: 100%;
         max-height: 0; /*responsible for menu to close and open*/
