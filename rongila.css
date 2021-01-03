@@ -650,6 +650,18 @@ img{
     height: auto;
 }
 
+/*sidebar classes*/
+.sideBar{
+
+}
+
+
+
+iframe{
+    max-width: 95%;
+    overflow: scroll;
+}
+
 
 
 
@@ -1699,6 +1711,13 @@ footer a:hover{
 /*Media Queries 800px*/
 
 @media(max-width: 800px){
+
+
+    iframe{
+        max-width: 750px;
+        overflow: scroll;
+    }
+
     .form-container{
         display: flex;
         margin: 1rem 0.5rem;
@@ -1955,6 +1974,15 @@ footer a:hover{
 
 /*media query 420px*/
 @media(max-width: 420px){
+
+
+    iframe{
+        height: 100vh;
+        max-width: 350px;
+        overflow: scroll;
+    }
+
+
     body{
         display: flex !important;
         flex-direction: column !important;
