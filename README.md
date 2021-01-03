@@ -15,7 +15,7 @@
 <h2>Installation - </h2>
 
 ```html
-<link rel="stylesheet" href=".https://cdn.jsdelivr.net/gh/TriptoAfsin/rongila-css/rongila.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/TriptoAfsin/rongila-css/rongila.css">
 ```
 
 
