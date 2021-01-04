@@ -124,21 +124,21 @@
 
 @keyframes push {
 	0% {
-        transition: ease-in 0.4s;
-		scale: 0.95;
+        transition: ease-in 0.3s;
+		transform: scale(0.90);
 	}
 	100% {
-		scale: 1.0;
+		transform: scale(1.00);
 	}
 }
 
 @keyframes pop {
 	0% {
         transition: ease-in 0.4s;
-		scale: 1.05;
+		transform: scale(1.08);
 	}
 	100% {
-		scale: 1.0;
+		transform: scale(1.00);
 	}
 }
 
@@ -304,15 +304,41 @@ button:hover{
 }
 
 
+
+
+
+
+.button{
+    padding: 1rem 1.5rem;
+    margin: 0.5rem 0.5rem;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(43, 202, 78);
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover{
+    transition: ease-in 0.4s;
+    border-radius: 5px;
+    color: white;
+    background-color:  rgb(87, 209, 113);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
 /*Hover Animations*/
 .hover-grow:hover{
-    transition: ease-in 0.1s; 
-    scale: 1.05;
+    transition: ease-in 0.1s !important; 
+    transform: scale(1.05) !important;
 }
 
 .hover-shrink:hover{
-    transition: ease-in 0.1s; 
-    scale: 0.95;
+    transition: ease-in 0.1s !important; 
+    transform: scale(0.95) !important;
 }
 
 .hover-push:hover{
@@ -413,30 +439,6 @@ button:hover{
 }
 
 
-
-
-
-.button{
-    padding: 1rem 1.5rem;
-    margin: 0.5rem 0.5rem;
-    border-radius: 5px;
-    color: white;
-    background-color: rgb(43, 202, 78);
-    font-size: 1rem;
-    text-decoration: none;
-    display: inline-block;
-    border: none;
-    cursor: pointer;
-}
-
-.button:hover{
-    transition: ease-in 0.4s;
-    border-radius: 5px;
-    color: white;
-    background-color:  rgb(87, 209, 113);
-    font-size: 1rem;
-    text-decoration: none;
-}
 
 table{
     margin: 0.5rem 0.5rem;
@@ -886,6 +888,10 @@ iframe{
 
 .red-txt{
     color: var(--red) !important;
+}
+
+.white-txt{
+    color: var(--white) !important;
 }
 
 .green{
