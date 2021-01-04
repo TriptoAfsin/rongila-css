@@ -1,6 +1,6 @@
 <h1>Rongila.css</h1>
 <p>A class based css librarary built with animations and responsiveness in mind😍</p>
-<b>version: 0.2.0</b>
+<b>version: 0.2.1</b>
 
 <img src="https://i.imgur.com/xqoIGZd.png">
 
@@ -15,10 +15,10 @@
 <h2>Installation - </h2>
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/TriptoAfsin/rongila-css/rongila.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/TriptoAfsin/rongila-css@2.01/rongila.css">
 ```
 
-<h2>🌍Demo Site: <a href="https://cdn.jsdelivr.net/gh/TriptoAfsin/rongila-css@2.01/rongila.css"> Visit </a></h2>
+<h2>🌍Demo Site: <a href="https://triptoafsin.github.io/rongila-css/"> Visit </a></h2>
 
 <h2>Usage instructions - </h2>
 
