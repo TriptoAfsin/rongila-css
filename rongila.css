@@ -169,6 +169,16 @@
     }
 }
 
+/*Responsive Hiding*/
+@media(max-width: 600px){
+    .hide-on-mobile{
+        display: none;
+    }
+}
+
+.hide-on-desktop{
+    display: none;
+}
 
 
 /*Animation Classes*/
@@ -980,6 +990,12 @@ iframe{
     background-color:   var(--orange) !important;
 }
 
+/*Blur*/
+.blur{
+    opacity: 0.8;
+    backdrop-filter: blur(15px) !important;
+}
+
 /*txt size classes*/
 .txt-sm{
     font-size: 0.75rem !important;
@@ -1458,7 +1474,6 @@ select{
     max-height: 0; /*responsible for menu to close and open*/
     transition: max-height .2s ease-out;
   }
-
   
   /* menu icon */
   .nav-container .menu-icon {
