@@ -1134,6 +1134,14 @@ iframe{
     margin-bottom: 2rem !important;
 }
 
+.mb7{
+    margin-bottom: 2.5rem !important;
+}
+
+.mb8{
+    margin-bottom: 3rem !important;
+}
+
 .mr0{
     margin-right: 0 !important;
 }
@@ -1150,6 +1158,22 @@ iframe{
     margin-right: 1.5rem !important;
 }
 
+.mr5{
+    margin-right: 2rem !important;
+}
+
+.mr6{
+    margin-right: 2.25rem !important;
+}
+
+.mr7{
+    margin-right: 2.5rem !important;
+}
+
+.mr8{
+    margin-right: 3rem !important;
+}
+
 .ml0{
     margin-left: 0rem !important;
 }
@@ -1164,6 +1188,22 @@ iframe{
 }
 .ml4{
     margin-left: 1.5rem !important;
+}
+
+.ml5{
+    margin-left: 1.75rem !important;
+}
+
+.ml6{
+    margin-left: 2rem !important;
+}
+
+.ml7{
+    margin-left: 2.5rem !important;
+}
+
+.ml8{
+    margin-left: 3rem !important;
 }
 
 
