@@ -179,8 +179,10 @@
     }
 }
 
-.hide-on-desktop{
-    display: none;
+@media(min-width: 600px){
+    .hide-on-desktop{
+        display: none;
+    }
 }
 
 
