@@ -179,7 +179,7 @@
     }
 }
 
-@media(min-width: 600px){
+@media (min-width: 600px){
     .hide-on-desktop{
         display: none;
     }
@@ -857,6 +857,17 @@ iframe{
     border: none !important;
 }
 
+.darkBg hr{
+    color: white !important;
+    background-color: white !important;
+}
+
+hr{
+    height: 2px;
+    width: 100%;
+    border: none;
+}
+
 
 .lightBg{
     color: var(--black) !important;
@@ -879,6 +890,11 @@ iframe{
 .lightBg table tr td{
     padding: 0.5rem 0.5rem;
     border: 1px solid black !important;
+}
+
+.white{
+    color: black !important;
+    background-color:   var(--white) !important;
 }
 
 .red{
