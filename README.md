@@ -1,10 +1,13 @@
-<h1>Rongila.css</h1>
-<p>A class based css librarary built with animations and responsiveness in mind😍</p>
-<b>version: 0.2.1</b>
+# Rongila.css 
 
-<img src="https://i.imgur.com/xqoIGZd.png">
+A class based css librarary built with animations and responsiveness in mind😍
 
-<h2>Features - </h2>
+**version: 0.2.1**
+
+
+<p align="center"><img src="./rongila2.png" width="256px" /></p>
+
+## Features - 
 <ol>
 <li> Written in vanilla css✔</li>
 <li> Simple class based usage😄</li>
@@ -12,7 +15,7 @@
 <li> Easy to use animations & hover effects🤯</li>
 </ol>
 
-<h2>Installation - </h2>
+## Installation - 
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/TriptoAfsin/rongila-css@2.08/rongila.css">
