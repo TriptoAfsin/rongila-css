@@ -15,17 +15,24 @@
     --lightGrey: rgb(45, 45, 45);
     --lightCard: #ffffff;
 
+    --ash: #e4e8eb;
+    --paper: #f4ede4;
+
     --red: rgb(204, 31, 31);
+    --lightRed: #fa6d51;
     --darkRed: rgb(124, 23, 23);
     --lightRed: rgb(248, 72, 72);
     --green: rgb(43, 202, 78);
     --darkGreen: rgb(28, 114, 47);
     --lightGreen: rgb(61, 235, 98);
+    --teal: #36bc9b;
     --blue: rgb(35, 89, 240);
     --lightBlue:  rgb(76, 123, 250);
     --darkBlue: rgb(35, 62, 136);
+    --skyBlue: #4fc0e8;
     --yellow: rgb(245, 213, 30);
     --orange: orange;
+    --pink: rgb(245, 21, 245);
     --purple: rgb(141, 34, 141);
     --lightPurple:rgb(88, 63, 201);
     --black: black;
@@ -37,6 +44,10 @@
     --purpleGradient: linear-gradient(45deg,  var(--lightPurple),var(--purple));
     --yellowGradient: linear-gradient(45deg,  var(--yellow),var(--orange));
     --greyGradient: linear-gradient(45deg,  var(--lightGrey),var(--grey));
+
+    --orangeGradient: linear-gradient(45deg,  var(--lightRed),var(--orange));
+    --aquaGradient: linear-gradient(45deg,  #0cd8ba,#047fd5);
+    --ashGradient: linear-gradient(45deg,  #d4d5d7,#737c86);
 
     /*Font Size*/
 
@@ -902,9 +913,31 @@ hr{
     background-color: var(--red) !important;
 }
 
+.lightRed{
+    color: white !important;
+    background-color: var(--lightRed) !important;
+}
+
 .redGradient{
     color: white !important;
     background: var(--redGradient) !important;
+}
+
+
+
+.ash{
+    color: black;
+    background-color: var(--ash) !important;
+}
+
+.ashGradient{
+    color: black;
+    background: var(--ashGradient) !important;
+}
+
+.paper{
+    color: black;
+    background: var(--paper) !important;
 }
 
 .darkRed{
@@ -919,6 +952,16 @@ hr{
 
 .red-txt{
     color: var(--red) !important;
+}
+
+.orangeGradient{
+    color: white !important;
+    background: var(--orangeGradient) !important;
+}
+
+.aquaGradient{
+    color: white !important;
+    background: var(--aquaGradient) !important;
 }
 
 .white-txt{
@@ -1009,6 +1052,43 @@ hr{
 .orange{
     color: white !important;
     background-color:   var(--orange) !important;
+}
+
+.pink {
+    color: white !important;
+    background-color:   var(--pink) !important;
+}
+
+.skyBLue{
+    color: white;
+    background-color:   var(--skyBlue) !important;
+}
+
+.teal{
+    color: white;
+    background-color:   var(--teal) !important;
+}
+
+
+/*Neon Colors*/
+.neonGreen{
+    color: black !important;
+    background-color:#00f762 !important;
+}
+
+.neonBlue{
+    color: white !important;
+    background-color:#4949f3 !important;
+}
+
+.neonRed{
+    color: white !important;
+    background-color:#ef161e !important;
+}
+
+.neonPurple{
+    color: white !important;
+    background-color:#9639ef !important;
 }
 
 /*Blur*/
