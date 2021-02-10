@@ -32,7 +32,7 @@
     --skyBlue: #4fc0e8;
     --yellow: rgb(245, 213, 30);
     --orange: orange;
-    --pink: rgb(245, 21, 245);
+    --pink: #e9146d;
     --purple: rgb(141, 34, 141);
     --lightPurple:rgb(88, 63, 201);
     --black: black;
@@ -1098,6 +1098,18 @@ hr{
 }
 
 /*txt size classes*/
+.title1{
+    font-size: 5rem !important;
+}
+
+.title2{
+    font-size: 4rem !important;
+}
+
+.subtitle{
+    font-size: 3rem !important;
+}
+
 .txt-sm{
     font-size: 0.75rem !important;
 }
@@ -1129,6 +1141,24 @@ hr{
 .italic{
     font-style: italic;
 }
+
+/*Line height*/
+.lh1{
+    line-height: 1.5;
+}
+
+.lh2{
+    line-height: 2;
+}
+
+.lh3{
+    line-height: 2.5;
+}
+
+.lh4{
+    line-height: 3.5;
+}
+
 
 
 
@@ -1722,31 +1752,86 @@ select{
     }
 
     .pad4{
-        padding: 1rem auto !important;
+        padding: 1rem 0.75rem !important;
     }
     
     .pad5{
-        padding: 1.25rem auto !important;
+        padding: 1.25rem 0.75rem !important;
     }
     
     .pad6{
-        padding: 1.35rem auto !important;
+        padding: 1.35rem 0.75rem !important;
     }
     .pad7{
-        padding: 1.35rem auto !important;
+        padding: 1.35rem 0.75rem !important;
     }
     
     .pad8{
-        padding: 1.35rem auto !important;
+        padding: 1.35rem 1rem !important;
     }
     
     .pad9{
-        padding: 1.35rem auto !important;
+        padding: 1.35rem 1rem !important;
     }
     
     .pad10{
-        padding: 1.35rem auto !important;
+        padding: 1.35rem 1rem !important;
     }
+
+
+    .title1{
+        font-size: 4.5rem !important;
+    }
+    
+    .title2{
+        font-size: 3.5rem !important;
+    }
+    
+    .subtitle{
+        font-size: 2.75rem !important;
+    }
+    
+    .txt-sm{
+        font-size: 0.75rem !important;
+    }
+    
+    .txt-med{
+        font-size: 1rem !important;
+    }
+    
+    .txt-lg{
+        font-size: 1.2rem !important;
+    }
+    
+    .txt-xl{
+        font-size: 1.4rem !important;
+    }
+    
+    .txt-xxl{
+        font-size: 2rem !important;
+    }
+    
+    .txt-xxxl{
+        font-size: 2.25rem !important;
+    }
+    
+    /*Line height*/
+    .lh1{
+        line-height: 1.25;
+    }
+    
+    .lh2{
+        line-height: 1.5;
+    }
+    
+    .lh3{
+        line-height: 1.75;
+    }
+    
+    .lh4{
+        line-height: 2;
+    }
+    
 
     .nav-container .menu {
         width: 100%;
@@ -2148,27 +2233,23 @@ footer a:hover{
 
 /*media query 420px*/
 @media(max-width: 420px){
-
-
     iframe{
         height: 100vh;
         max-width: 350px;
         overflow: scroll;
     }
-
-
     body{
         display: flex !important;
         flex-direction: column !important;
         justify-content: center !important;
         justify-self: center !important;
-        text-align: center !important;
         overflow-x: scroll !important;
     }
 
     body img{
-        width: 100%;
-        height: 100%;
+        width: auto;
+        height: auto;
+        overflow: scroll;
     }
 
     .background-img{
