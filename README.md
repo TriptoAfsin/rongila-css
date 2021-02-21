@@ -18,7 +18,7 @@ A class based css librarary built with animations and responsiveness in mind😍
 ## Installation - 
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/TriptoAfsin/rongila-css@2.08/rongila.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/TriptoAfsin/rongila-css@2.09/rongila.css">
 ```
 
 <h2>🌍Demo Site: <a href="https://triptoafsin.github.io/rongila-css/"> Visit </a></h2>

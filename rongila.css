@@ -329,7 +329,17 @@ button:hover{
     text-decoration: none;
 }
 
+.pointer{
+    cursor: pointer;
+}
 
+.cross{
+    cursor: not-allowed;
+}
+
+.grab{
+    cursor: grab;
+}
 
 
 
@@ -1192,17 +1202,19 @@ hr{
 
 .center{
     display: flex !important;
-    flex-direction: column !important;
+    flex-direction: column;
     justify-content: center !important;
     justify-self: center;
-    text-align: center !important;
+    align-items: center;
+    text-align: left;
 }
 
 .center-self{
     display: flex !important;
+    flex-direction: column;
     justify-content: center !important;
     justify-self: center;
-    text-align: center !important;
+    align-items: center;
 }
 
 
@@ -1545,6 +1557,7 @@ ol li{
 
 /*Form Classes*/
 .form-container{
+    max-width: 450px;
     margin: 1rem 1rem;
     padding: 2rem 2rem;
     border: 1px solid var(--lightBlue);
@@ -1552,13 +1565,13 @@ ol li{
     overflow-x: auto !important;
 }
 
-.form-container label{
-    font-size: 1.25rem;
-}
 
 .form-container input{
     box-sizing: border-box;
-    border-radius: 5px;
+}
+
+.form-container label{
+    padding: 0.5rem 1rem;
 }
 
 .form-container input[type=submit]{
@@ -1586,12 +1599,18 @@ ol li{
 
 
 
+
 /*Input classes*/
 input{
     font-size: 1rem;
     padding: 0.5rem 3rem;
     margin: 0.5rem 0.5rem;
     border: 1px solid black;
+}
+
+input:disabled{
+    background: #d6d4d4;
+    cursor: not-allowed;
 }
 
 
@@ -1979,15 +1998,15 @@ footer a:hover{
         border-radius: 5px;
     }
 
-    .form-container label{
-        font-size: 0.75rem;
-        padding: 0.25rem 0.75rem;
-    }
 
     .form-container input{
         box-sizing: border-box;
-        padding: 0.25rem 0.75rem;
-        border-radius: 5px;
+        padding: 0.3rem 0.75rem;
+    }
+
+    .form-container input[type=submit]{
+       width: 50%;
+       padding: 0.5rem 1rem;
     }
 
     .width10{
