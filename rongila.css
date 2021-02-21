@@ -479,15 +479,95 @@ button:hover{
 table{
     margin: 0.5rem 0.5rem;
     padding: 0.5rem 0.5rem;
-    border: 1px solid azure;
+    border: 1px solid black;
     border-collapse: collapse;
 }
 table tr th{
     padding:  0.5rem 0.5rem;;
-    border: 1px solid azure;
+    border: 1px solid black;
 }
 
 table tr td{
+    padding: 0.5rem 0.5rem;
+    border: 1px solid black;
+}
+
+.grey table{
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid azure;
+    border-collapse: collapse;
+}
+.grey table tr th{
+    padding:  0.5rem 0.5rem;;
+    border: 1px solid azure;
+}
+
+.grey table tr td{
+    padding: 0.5rem 0.5rem;
+    border: 1px solid azure;
+}
+
+.green table{
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid azure;
+    border-collapse: collapse;
+}
+.green table tr th{
+    padding:  0.5rem 0.5rem;;
+    border: 1px solid azure;
+}
+
+.green table tr td{
+    padding: 0.5rem 0.5rem;
+    border: 1px solid azure;
+}
+
+.greenGradient table{
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid azure;
+    border-collapse: collapse;
+}
+.greenGradient table tr th{
+    padding:  0.5rem 0.5rem;;
+    border: 1px solid azure;
+}
+
+.greenGradient table tr td{
+    padding: 0.5rem 0.5rem;
+    border: 1px solid azure;
+}
+
+.blue table{
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid azure;
+    border-collapse: collapse;
+}
+.blue table tr th{
+    padding:  0.5rem 0.5rem;;
+    border: 1px solid azure;
+}
+
+.blue table tr td{
+    padding: 0.5rem 0.5rem;
+    border: 1px solid azure;
+}
+
+.blueGradient table{
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid azure;
+    border-collapse: collapse;
+}
+.blueGradient table tr th{
+    padding:  0.5rem 0.5rem;;
+    border: 1px solid azure;
+}
+
+.blueGradient table tr td{
     padding: 0.5rem 0.5rem;
     border: 1px solid azure;
 }
@@ -1620,7 +1700,7 @@ input:disabled{
 select{
     margin: 0.5rem 0.5rem;
     padding: 0.5rem 2rem;
-
+    min-width: 200px;
 }
 /*Navbar classes*/
 .nav-container {
