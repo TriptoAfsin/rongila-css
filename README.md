@@ -25,7 +25,7 @@ A class based css librarary built with animations and responsiveness in mind😍
 
 <h2>Usage instructions - </h2>
 
-<h3><a href="#">⚡Full Documentation⚡</a></h2>
+<h3><a href="https://rongila.netlify.app/">⚡Full Documentation⚡</a></h2>
 
 ### Example 1(Text Sizes) - 
 
